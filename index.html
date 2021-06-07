@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lillian Lakes's Personal Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link href="/normalize.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <img src="https://i.ibb.co/ZKtZwLx/lillian-lakes-square.jpg" width="20%">
+    <h1>I'm Lillian, </h1>
+    <h2> a software engineer</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="https://drive.google.com/file/d/1w-nSNfhiZDdBm8GmGWICXWZIU4DZ0h-r/view?usp=sharing">Resumé</a></li>   
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#connect">Connect</a></li>
+    </ul>
+  </header>
+
+  <article>
+    <h2 id="about">About</h2>
+    <p>Hi, welcome to my site. I&apos;m a LA-based full-stack software engineer. I love learning new technology and solving tough problems.  I enjoy the outdoors, traveling, biking, dining out and listening to music. 
+
+    <p>Feel free to check out my projects, like posts, leave a comment or subscribe to my blog. I look forward to connecting.</p>
+  </article>
+
+  <article>
+    <h2 id="projects">Projects</h2>
+    <p>Below are some projects, including several from my early days learning HTML, CSS and JavaScript.  </p>
+
+    <div class="grid-container">
+      
+      <div class="grid-item"><img src="https://i.ibb.co/gPZPVfK/first-personal-website.png" alt="First Project: Personal Website" />
+        <button class="btn"><a href="https://Project-1-Build-a-Personal-Website.lillianlakes.repl.co" target="_blank" title="Click to view of demo of this project">Demo</a></button>
+        <button class="btn"><a href="https://github.com/lillianlakes/first-personal-website.git" target="_blank" title="Click to view GitHub files">GitHub</a></button>
+        <button class="btn" onclick="commentFunction1()">Comment</button>
+        <p id="comment1"></p>
+      </div>
+
+      <div class="grid-item"><img src="https://i.ibb.co/sJ65cx7/second-blog-theme.png" alt="Second Project: Travel Blog" />
+        <button class="btn"><a href="https://Project-2-Build-a-Responsive-Blog.lillianlakes.repl.co" target="_blank" title="Click to view of demo of this project">Demo</a></button>
+        <button class="btn"><a href="https://github.com/lillianlakes/second-blog-theme.git" target="_blank" title="Click to view GitHub files">GitHub</a></button>
+        <button class="btn" onclick="commentFunction2()">Comment</button>
+        <p id="comment2"></p>
+      </div>
+
+      <div class="grid-item"><img src="https://i.ibb.co/M2F9QQW/third-small-business-site.png" alt="Third Project: Business Website" />
+        <button class="btn"><a href="https://Project-3-Small-Business-Website.lillianlakes.repl.co" target="_blank" title="Click to view of demo of this project">Demo</a></button>
+        <button class="btn"><a href="https://github.com/lillianlakes/third-small-business-site.git" target="_blank" title="Click to view GitHub files">GitHub</a></button>
+        <button class="btn" onclick="commentFunction3()">Comment</button>
+        <p id="comment3"></p>
+      </div>
+
+      <div class="grid-item"><img src="https://i.ibb.co/Tt2CcwQ/fourth-text-adventure-game.png" alt="Fourth Project: Text Adventure Game" />
+        <button class="btn"><a href="https://Project-4-Text-Adventure-Game.lillianlakes.repl.co" target="_blank" title="Click to view of demo of this project">Demo</a></button>
+        <button class="btn"><a href="https://github.com/lillianlakes/fourth-text-adventure-game.git" target="_blank" title="Click to view GitHub files">GitHub</a></button>
+        <button class="btn" onclick="commentFunction4()">Comment</button>
+        <p id="comment4"></p>
+      </div>
+
+      <div class="grid-item"><img src="https://i.ibb.co/3vQnNxy/fifth-pig-dice-game.png" alt="Fifth Project: Pig Dice Game" />
+        <button class="btn"><a href="https://replit.com/@lillianlakes/Project-5-Pig-Dice-Game?v=1" target="_blank" title="Click to view of demo of this project">Demo</a></button>
+        <button class="btn"><a href="https://github.com/lillianlakes/fifth-pig-dice-game.git" target="_blank" title="Click to view GitHub files">GitHub</a></button>
+        <button class="btn" onclick="commentFunction5()">Comment</button>
+        <p id="comment5"></p>
+      </div>
+    </div>
+  </article>
+
+  <br>
+
+  <div class="connect_details">
+    <h2 id="connect">Subscribe to my Mailing List</h2>
+    <p>Keep up to date with my projects by joining my mailing list.</p>
+
+    <input type="email" placeholder="Enter your email address">
+
+    <input type="submit" onclick="emailSubmitted()">
+
+    <p id="emailConfirmation"></p>
+
+    <br>
+    <p>You can also follow me on social media: <br>
+      <a href="https://github.com/lillianlakes" class="fa fa-github" target="_blank" title="Click for my GitHub profile"></a>
+      <a href="https://www.facebook.com/llakes" class="fa fa-facebook" target="_blank" title="Click for my Facebook profile"></a>
+      <a href="https://www.linkedin.com/in/lillianlakes" class="fa fa-linkedin" target="_blank" title="Click for my LinkedIn profile"></a>
+      <a href="http://twitter.com/Just_Lillie" class="fa fa-twitter" target="_blank" title="Click for my Twitter profile"></a>
+      <a href="https://www.instagram.com/lillian.lakes/" class="fa fa-instagram" target="_blank" title="Click for my Instagram profile"></a>
+      <a href="https://www.youtube.com/channel/UCCB7bfIJtpTTuy-w6JIGl-g" class="fa fa-youtube" target="_blank" title="Click for my YouTube profile"></a>
+    </p>
+  </div>
+
+  <article>
+    <h6> &copy; Copyright. All Rights Reserved.</h6>
+  </article>
+
+	<script src="script.js">
+	</script>
+
+</body>
